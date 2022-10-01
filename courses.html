@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>  Al Ameen University   </title>
+    
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="shortcut icon" href="./images/logo2.png" />
+
+    </head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">حول الجامعة</a></li>
+                    <li><a href="courses.html">الاختصاصات</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <a href="index.html"> <img src="./images/logo.png" alt="logo"> </a>
+            
+
+        </nav>
+<h1> اختصاصاتنا</h1>
+
+    
+    
+    </section>
+
+    <section class="courses">
+
+    
+
+        <h1>الاختصاصات</h1>
+    
+        <p> تقدم الجامعة برامج درجة علمية في إدارة الأعمال وعلوم الحاسوب والعلوم الصحية والتعليم. </p>
+    
+        <div class="row">
+            <div class="courses-col">
+                <h3> الآداب والعلوم </h3>
+                <p>تقوم الجامعة بالتدريس بهذا القسم: الأنثروبولوجيا، الرياضيات التطبيقية، الفنون وتاريخ الفن والتصميم، اللغات الآسيوية وآدابها، دراسات السينما والإعلام، التاريخ.</p>
+            </div>
+    
+            <div class="courses-col">
+                <h3> الهندسة</h3>
+                <p>
+                    تقوم الجامعة بالتدريس بهذا القسم: ملاحة الجوية والفضائية، الهندسة الكيميائية، الهندسة المدنية والبيئية، علوم الكومبيوتر و هندسة الحاسوب.            </p>
+            </div>
+    
+            <div class="courses-col">
+                <h3> الطب</h3>
+                <p>
+                    تقوم الجامعة بالتدريس بهذا القسم: التخدير، أخلاقيات علم الأحياء والعلوم الإنسانية، التركيب البيولوجي، المعلوماتية الطبية الحيوية والتعليم الطبي، الطب المقارن.
+                </p>
+            </div>
+        </div>
+    
+    
+    </section>
+
+
+
+    <section class="facilities">
+
+        <h1>أقسام إضافية</h1>
+        <p>من أجل توفير أفضل الأجواء للطلاب لتحفيز إنتاجيتهم</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/library.png">
+                <h3> مكتبة </h3>
+                <p> ليتسنى لطللابنا الحصول على جميع المراجع والكتب العلمية</p>
+            </div>
+
+
+            <div class="facilities-col">
+                <img src="./images/volleyball.png">
+                <h3> ملعب كبير </h3>
+                <p> لأن الرياضة عامل مهم في تحسين النفسية، يمكن للطلاب ممارسة رياضة كرة اليد في الملعب </p>
+            </div>
+
+
+            <div class="facilities-col">
+                <img src="./images/cafeteria.png">
+                <h3> مقصف </h3>
+                <p> يوفر أكثر الوجبات الصحية من أجل الحفاظ على صحة الطلاب </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+
+
+
+
+    <section class="footer">
+        <h4>حول الجامعة</h4>
+        <p>  جامعة الأمين هي جامعة معتمدة من قبل لجنة اعتماد التعليم عن بعد،
+            <br> وتقدم برامج درجة علمية في إدارة الأعمال وعلوم الحاسوب والعلوم الصحية والتعليم
+         </p>
+    
+         <div class="icons">
+            <i class="fa fa-facebook"> </i>
+            <i class="fa fa-twitter"> </i>
+            <i class="fa fa-instagram"> </i>
+            <i class="fa fa-linkedin"> </i>
+         </div>
+    <hr>
+         <p>
+            تمت برمجته بواسطة
+            <br>
+            <i class="fa fa-heart-o"></i>
+            <br>
+            BatoolJal
+         </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+
+    </html>

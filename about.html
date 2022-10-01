@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>  Al Ameen University   </title>
+    
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="shortcut icon" href="./images/logo2.png" />
+
+    </head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">حول الجامعة</a></li>
+                    <li><a href="courses.html">الاختصاصات</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <a href="index.html"> <img src="./images/logo.png" alt="logo"> </a>
+            
+
+        </nav>
+<h1>حول الجامعة</h1>
+
+    
+    
+    </section>
+
+
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="abou-col">
+                <h1>جامعة الأمين واحدة من أعرق الجامعات في العالم</h1>
+                <p>حيث تم إنشاء الجامعة من أكثر من 75 سنة، خلال هذه المدة كانت الجامعة تقدّم العديد من الاخصاصات 
+                    والبرامج الدراسية لطلابها، حيث نقوم باستقطاب أفضل الندرسين من جميع أنحاء العالم. إن خريجي
+                    الجامعة يعملون الآن في أرقى الشركات حول العالم.
+                </p>
+                <a href="" class="hero-btn red-btn">تصفح الاختصاصات الآن</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/about.png">
+            </div>
+        </div>
+    </section>
+
+
+
+
+<section class="footer">
+
+
+     <div class="icons">
+        <i class="fa fa-facebook"> </i>
+        <i class="fa fa-twitter"> </i>
+        <i class="fa fa-instagram"> </i>
+        <i class="fa fa-linkedin"> </i>
+     </div>
+<hr>
+     <p>
+        تمت برمجته بواسطة
+        <br>
+        <i class="fa fa-heart-o"></i>
+        <br>
+        BatoolJal
+     </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+
+    </html>
